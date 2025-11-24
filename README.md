@@ -1,11 +1,11 @@
-#Student Pass Predictor
+**Student Pass Predictor.**
 
 An AI/ML-driven Python project that generates synthetic student data, trains a Random Forest classifier to predict whether a student will pass, and provides a simple command-line menu to retrain the model, make predictions, and inspect feature importances.
 
 
 ---
 
-#Features (AI/ML Focus)
+**Features (AI/ML Focus).**
 
 Generate reproducible synthetic student dataset (students.csv).
 
@@ -26,7 +26,7 @@ Display feature importance ranking
 
 ---
 
-#Files produced / used
+**Files produced / used.**
 
 students.csv — generated synthetic dataset (if not present).
 
@@ -40,7 +40,7 @@ The main script file (the code you provided) runs the CLI.
 
 ---
 
-#Requirements
+**Requirements.**
 
 Python 3.8+
 
@@ -63,7 +63,7 @@ pip install numpy pandas scikit-learn joblib
 
 ---
 
-#How it works  (AI/ML workflow))
+**How it works  (AI/ML workflow)).**
 
 1. If students.csv does not exist, make_data() generates a dataset with features:
 
@@ -95,7 +95,7 @@ passed (0/1): label computed from a noisy linear function of the features
 
 ---
 
-#Usage
+**Usage.**
 
 Run the script from the command line:
 
